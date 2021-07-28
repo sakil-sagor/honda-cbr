@@ -1,0 +1,25 @@
+header{
+    background: #264653;
+}
+.logo{
+    font-size: 50px!important;
+}
+hr{
+    color: #0dcaf0;
+    width: 10%;
+    margin: auto;
+    margin-top: -10px;
+}
+.gray-scale img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.gray-scale img:hover{
+    filter: grayscale(0%);
+}
+li{
+    list-style-type: none;
+}
+footer{
+    background-color: #0B0D17;
+}

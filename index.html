@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Honda Motor-Cycle</title>
+</head>
+
+<body>
+    <header>
+        <!-- menu area start -->
+        <section class="py-2">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand text-white fs-6 fw-bolder logo" href="#" style="font-size: 50px;">
+                        MoTo.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#bikes">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#news">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#clients">Feadback</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#faq">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#team">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#contact">Contact
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn bg-info bg-gradient text-white"> Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- hero area start    -->
+        <section class="container py-5">
+            <div class="hero-area  d-md-flex d-sm-block align-items-center justify-content-between ">
+                <div class="hero-content  text-lg-start text-white">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <p>Computer-controlled digital transistorized with electronic advance</p>
+                            <h1 class="text-uppercase fw-bolder fs-1 mb-4"> Honda CBR 300R</h1>
+                            <p class="fs-6">The Honda Motor Company, Ltd. is a Japanese public multinational
+                                conglomerate
+                                manufacturer of automobiles, motorcycles, and power equipment, headquartered in Minato,
+                                Tokyo,
+                                Japan </p>
+                            <button class="btn bg-info bg-gradient text-white" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"> Purchase
+                            </button>
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <!-- modal area  -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 class="mb-3 text-dark ">Please login here.</h5>
+                                    <form>
+
+                                        <div class="mb-3 text-dark ">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+
+                                        </div>
+                                        <div class="mb-3 text-dark">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Login</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Registration</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-img mt-2">
+                    <img src="images/header-bike.png" alt="" width="350px">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- Fetured Bikes start  -->
+        <section class=" py-5 my-5" id="bikes">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class=" fw-bolder fs-1">Fetured <span class="text-info">Bikes 2021</span> </h1>
+                    <p class="  fs-6 ">Best bike collection</p>
+                    <hr>
+                </div>
+                <div class="row ms-5 ms-md-0 gy-5 gx-md-5 mt-5">
+                    <div class="col-12 col-md-6 col-lg-4 gray-scale">
+                        <img src="images/feature-bike.jpg" alt="" width="80%">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="images/feature-bike.jpg" alt="" width="80%">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 gray-scale">
+                        <img src="images/feature-bike.jpg" alt="" width="80%">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- latest news area start  -->
+        <section id="news" class="my-5 py-5">
+            <div class="container ">
+                <div class="text-center">
+                    <h1 class=" fw-bolder fs-1">latest <span class="text-info">News</span></h1>
+                </div>
+                <div class="news-area mt-5">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 rounded-3 border-0 shadow-lg">
+                                <div class="news-img m-3 rounded-3">
+                                    <img src="images/bike-1.png" class="card-img-top " alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bolder">Ducati XDIAVEL S-73</h4>
+                                    <p class="card-text ">The Ducati Diavel is the second cruiser motorcycle from Ducati
+                                        after the Indiana of 1986–1990.The engine is a retuned version of the 1,198.4 cc
+                                    </p>
+                                </div>
+                                <div class="p-3">
+                                    <div class="button-area">
+                                        <button class="btn bg-info bg-gradient text-white px-3 py-2">
+                                            Read More
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 rounded-3 border-0 shadow-lg">
+                                <div class="news-img m-3 rounded-3">
+                                    <img src="images/bike-2.png" class="card-img-top " alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bolder">Motorcycles & Scooters</h4>
+                                    <p class="card-text ">A scooter or motor scooter is a motorcycle with a step-through
+                                        frame. Elements of scooter design were
+                                        present in some of the earliest motorcycles.
+                                    </p>
+                                </div>
+                                <div class="p-3">
+                                    <div class="button-area">
+                                        <button class="btn bg-info bg-gradient text-white px-3 py-2">
+                                            Read More
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 rounded-3 border-0 shadow-lg">
+                                <div class="news-img m-3 rounded-3">
+                                    <img src="images/bike-3.png" class="card-img-top " alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bolder">2021 Honda CBR500R</h4>
+                                    <p class="card-text ">The Honda CBR models are a series of Honda sport bikes first
+                                        introduced in 1983. CBR150R,
+                                        CBR250R and CBR300R, all CBR motorbikes have inline engines.
+                                    </p>
+                                </div>
+                                <div class="p-3">
+                                    <div class="button-area">
+                                        <button class="btn bg-info bg-gradient text-white px-3 py-2">
+                                            Read More
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- clients feadback area start  -->
+        <section id="clients" class="my-5 py-5 clients">
+            <div class="container ">
+                <div class="text-center">
+                    <h1 class=" fw-bolder fs-1">Happy <span class="text-info">Clients Says</span></h1>
+                </div>
+                <div class="news-area mt-5">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                            <div class="card h-100 rounded-3 border">
+                                <div class="clients-img">
+                                    <img src="images/user-1.png" class="card-img-top d-block m-auto my-5" alt="..."
+                                        style="width: 200px ; height: 200px;">
+                                </div>
+                                <div class="card-body mx-5 text-center">
+                                    <p class="card-text ">A scooter or motor scooter is a motorcycle with a step-through
+                                        frame.
+                                    </p>
+                                    <div class="mx-5">
+                                        <ul class="d-flex  justify-content-between ps-0 ">
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+
+                                        </ul>
+                                    </div>
+                                    <h4 class="text-info">Regina Miles</h4>
+                                    <h5 class="">Banker</h5>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 rounded-3 border">
+                                <div class="news-img">
+                                    <img src="images/user-2.png" class="card-img-top d-block m-auto my-5" alt="..."
+                                        style="width: 200px ; height: 200px;">
+                                </div>
+                                <div class="card-body mx-5 text-center">
+                                    <p class="card-text ">The Ducati Diavel is the motorcycle from Ducati
+                                        after the Indiana.
+                                    </p>
+                                    <div class="mx-5">
+                                        <ul class="d-flex  justify-content-between ps-0 ">
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="far fa-star text-warning"></i></li>
+                                        </ul>
+                                    </div>
+                                    <h4 class="text-info">Su ondri </h4>
+                                    <h5 class="">Developer</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100 rounded-3 border">
+                                <div class="news-img ">
+                                    <img src="images/user-3.jpg" class="card-img-top rounded-circle d-block m-auto my-5"
+                                        alt="..." style="width: 200px ; height: 200px;">
+                                </div>
+                                <div class="card-body mx-5 text-center">
+                                    <p class="card-text ">The Honda CBR models are a series of Honda sport bikes first
+                                        introduced.
+                                    </p>
+                                    <div class="mx-5">
+                                        <ul class="d-flex  justify-content-between ps-0 ">
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+                                            <li> <i class="fas fa-star text-warning"></i></li>
+
+                                        </ul>
+                                    </div>
+                                    <h4 class="text-info">Kalu Alins</h4>
+                                    <h5 class="">Businessman</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Asked Questions area start  -->
+        <section id="faq" class="my-5 py-5">
+            <div class="container ">
+                <div class="text-center">
+                    <h1 class=" fw-bolder fs-1">Frequently <span class="text-info">Asked Questions</span></h1>
+                </div>
+                <div class="faq-area mt-5 row">
+                    <div class=" col-12 col-lg-6">
+                        <img src="images/faq.png" alt="" width="90%">
+                    </div>
+                    <div class=" col-12 col-lg-6">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        What is Motor-Cycle
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">A motorcycle, often called a motorbike, bike, or cycle,
+                                        is a two- or three-wheeled motor vehicle. Motorcycle design varies greatly to
+                                        suit a range of different purposes: long-distance travel, commuting, cruising,
+                                        sport, and off-road riding.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Why Honda is the best?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Honda has won many awards which attests to its quality.
+                                        This company has won the Car and Driver Top Manufacturer Awards more time than
+                                        any other brand has. They've received this award about 80 times, which is two
+                                        times more than Toyota has with 38. ... Best Overall Non-luxury Brand.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        History of honda company?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The Honda Motor Company, Ltd. is a Japanese public
+                                        multinational conglomerate manufacturer of automobiles, motorcycles, and power
+                                        equipment, headquartered in Minato, Tokyo, Japan.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        Owner of honda company?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The Honda Motor Company, Ltd. is a Japanese public
+                                        multinational conglomerate manufacturer of automobiles, motorcycles, and power
+                                        equipment, headquartered in Minato, Tokyo, Japan.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                        aria-controls="flush-collapseFive">
+                                        Memorys of honda company?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The following is a list of motorcycle manufacturers
+                                        worldwide, sorted by extant/extinct status and by country. These are producers
+                                        whose motorcycles are available to the public, including both street legal as
+                                        well as racetrack-only or off-road-only motorcycles. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                        aria-controls="flush-collapseSix">
+                                        About Honda CBR Brand.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">The Honda CBR models are a series of Honda sport bikes
+                                        first introduced in 1983. With the exception of the single-cylinder CBR125R,
+                                        CBR150R, CBR250R and CBR300R, all CBR motorbikes have inline engines. Less
+                                        sporting/general models make up CB series. </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item pb-3">
+                                <h2 class="accordion-header" id="flush-headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                        aria-controls="flush-collapseSeven">
+                                        Performance of Honda.
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Honda Performance Development, Inc. (HPD) is a
+                                        subsidiary of American Honda Motor Co.[1][2][3][4] which was established in 1993
+                                        and is based in Santa Clarita, California. It is the technical operations center
+                                        for Honda's American motorsports programs and is involved in the design and
+                                        development . </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- team mates area start  -->
+        <section id="team">
+            <div class="container py-5 my-5">
+                <div class="text-center">
+                    <h1 class=" fw-bolder fs-1">Our <span class="text-info">Engineers</span></h1>
+                </div>
+                <div class="team-area pt-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner shadow-lg">
+                            <div class="carousel-item active ">
+                                <div class="iteam">
+                                    <div class="team-img ">
+                                        <img src="images/user-1.png"
+                                            class="card-img-top rounded-circle d-block m-auto my-5" alt="..."
+                                            style="width: 200px ; height: 200px;">
+                                    </div>
+                                    <div class="content text-center py-3">
+                                        <p>Good afternoon. I am very pleased with the quality of the work of your
+                                            employee representing your wonderful company.</p>
+                                        <h3 class="text-info">Sakil</h3>
+                                        <h5 class="text-secondary"> Engineers</h5>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class="iteam">
+                                    <div class="team-img ">
+                                        <img src="images/user-2.png"
+                                            class="card-img-top rounded-circle d-block m-auto my-5" alt="..."
+                                            style="width: 200px ; height: 200px;">
+                                    </div>
+                                    <div class="content text-center py-3">
+                                        <p>Good afternoon. I am very pleased with the quality of the work of your
+                                            employee representing your wonderful company.</p>
+                                        <h3 class="text-info">Sagor</h3>
+                                        <h5 class="text-secondary"> Engineers</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="iteam">
+                                    <div class="team-img ">
+                                        <img src="images/user-3.jpg"
+                                            class="card-img-top rounded-circle d-block m-auto my-5" alt="..."
+                                            style="width: 200px ; height: 200px;">
+                                    </div>
+                                    <div class="content text-center py-3">
+                                        <p>Good afternoon. I am very pleased with the quality of the work of your
+                                            employee representing your wonderful company.</p>
+                                        <h3 class="text-info">Pappu</h3>
+                                        <h5 class="text-secondary"> Engineers</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-info rounded-circle" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-info rounded-circle" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact us   -->
+        <section id="contact">
+            <div class="container py-5 my-5">
+                <div class="text-center">
+                    <h1 class=" fw-bolder fs-1">Contact <span class="text-info">Us</span></h1>
+                </div>
+                <div class="row g-3 py-5">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                    <div class="col-12">
+                        <input type="email" class="form-control" placeholder="Your email" aria-label="Last name">
+                    </div>
+                    <div class="col-12">
+
+                        <textarea name="" class="form-control" id="" cols="30" rows="10"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer area start  -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="text-white text-center">
+                <p>&#169 2022 bike. All rights reserved by MoTo.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
