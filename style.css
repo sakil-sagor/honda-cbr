@@ -3,6 +3,7 @@ header{
 }
 .logo{
     font-size: 50px!important;
+    color: #0dcaf0!important;
 }
 hr{
     color: #0dcaf0;
@@ -19,6 +20,9 @@ hr{
 }
 li{
     list-style-type: none;
+}
+.con-from.row.g-lg-5.py-5{
+    margin-left: 0 !important;
 }
 footer{
     background-color: #0B0D17;
